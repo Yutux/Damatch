@@ -1,0 +1,85 @@
+@font-face {
+    src: url(fonts/spaceage.ttf);
+    font-family: space;
+}
+
+.ok {
+    background-image: url(peaple1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.user {
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+}
+
+.commentbox {
+
+    width: 100%;
+    
+    text-align: center;
+    
+    position: inherit;
+    top: 100px;
+    right: 300px;
+    font-family: space;
+}
+.comment {
+
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    
+    position: inherit;
+    top: 100px;
+    right: 300px;
+    font-family: space;
+    border-radius: 10px;
+}
+
+.publish {
+
+    width: 100%;
+    
+    text-align: center;
+    
+    position: initial;
+    top: 100px;
+    right: 300px;
+    font-family: space;
+    border-radius: 10px;
+    
+}
+
+.message {
+
+    width: 100%;
+    
+    text-align: center;
+    
+    display: inline-table;
+    font-family: space;
+    border-radius: 10px;
+}
+
+.all button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: rgba(144, 197, 228, 0.418);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.all button[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(26, 19, 117, 0.651);
+    color: white;
+    font-family:space;
+
+}

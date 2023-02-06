@@ -1,0 +1,147 @@
+@font-face{
+    src: url(fonts/spaceage.ttf);
+    font-family: space;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+    height: extend-to-zoom;
+}
+
+@-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+    height: extend-to-zoom;
+}
+.ok {
+    margin: 0;
+    padding: 0;
+    background: url(5yzpqs8t43731.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:space;
+
+}
+
+.Add {
+    width: 700px;
+    height: 600px;
+    background-color: rgba(24, 24, 102, 0.486);
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background-size: cover;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    font-family:space;
+
+}
+
+.Addhere {
+    margin: 0px;
+    padding: 0 0 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family:space;
+
+}
+
+.Add input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.Add input[type="text"], input[type="password"]{
+        color: white;
+        border: none;
+        border-bottom: 1px solid;
+        background: transparent;
+        outline: none;
+        height: 25px;
+        font-family:space;
+
+}
+
+.Add input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: paleturquoise;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.Add textarea[type="text"]{
+   
+    
+    
+    color: white;
+    
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.Add button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: paleturquoise;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.Add input[type="file"]{
+   
+    background: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.Add button[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(26, 19, 117, 0.651);
+    color: white;
+    font-family:space;
+
+}
+
+.Add input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(26, 19, 117, 0.651);
+    color: white;
+    font-family:space;
+
+}
+
+.Add a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    font-family:space;
+
+}

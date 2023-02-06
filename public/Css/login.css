@@ -1,0 +1,128 @@
+@font-face{
+    src: url(fonts/spaceage.ttf);
+    font-family: space;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(de1ajge-184c531f-dcec-4eec-8fff-a415b246a589.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-attachment:fixed;
+}
+
+.login {
+    width: 320px;
+    height: 420px;
+    background-color: rgba(122, 116, 22, 0.137);
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background-size: cover;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.Avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    font-family:space;
+
+}
+
+.loginhere {
+    margin: 0px;
+    padding: 0 0 5px;
+    text-align: center;
+    font-size: 22px;
+    font-family:space;
+
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family:space;
+
+}
+
+.login input[type="text"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid;
+    background: white;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.login input[type="text"], input[type="password"]{
+        border: none;
+        border-bottom: 1px solid;
+        background: white;
+        outline: none;
+        height: 40px;
+        border-radius: 20px;
+        font-family:space;
+
+}
+
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: paleturquoise;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family:space;
+
+}
+
+.login button[type="submit"]:hover{
+    cursor: pointer;
+    background: greenyellow;
+    color: white;
+    font-family:space;
+
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkblue;
+    font-family:space;
+
+}
+
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(26, 19, 117, 0.651);
+    color: white;
+    font-family:space;
+
+}
